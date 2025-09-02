@@ -21,7 +21,9 @@ public class practiceArrayList2 {
         System.out.println(alist.indexOf(1)); // for finding the index
 
         List<Integer> alist3 = alist2.subList(1,4); // it adds the element of the indexes, we have written
-        System.out.println(alist3);
+        alist3.set(0,250); // it doesn't copy. it gives the overview.
+        System.out.println(alist2);
+        System.out.println(alist3); 
 
 //        System.out.println(alist);
 //        System.out.println(alist2);
